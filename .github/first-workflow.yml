@@ -1,0 +1,24 @@
+name: My First GitHub Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print hello
+        run: echo "Hello from GitHub Actions 🚀"
+
+      - name: Show date
+        run: date
+
+      - name: Show system info
+        run: uname -a
+
+      - name: List files
+        run: ls -la
+
