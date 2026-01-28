@@ -21,6 +21,6 @@ jobs:
 
       - name: List files
         run: ls -la
-	
-      -name: Run shell script
-	run: bash hello.sh
+
+      - name: Run shell script
+        run: bash hello.sh
